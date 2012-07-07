@@ -1,0 +1,61 @@
+GIT
+  remote: git://github.com/mongoid/mongoid.git
+  revision: bee4ad875d076c68810c7c50e4edcfec56cc6af4
+  specs:
+    mongoid (3.0.0.rc)
+      activemodel (~> 3.1)
+      moped (~> 1.1.1)
+      origin (~> 1.0.3)
+      tzinfo (~> 0.3.22)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.6)
+      activesupport (= 3.2.6)
+      builder (~> 3.0.0)
+    activesupport (3.2.6)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    async-rack (0.5.1)
+      rack (~> 1.1)
+    builder (3.0.0)
+    em-synchrony (1.0.2)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.0.0.rc.4)
+    goliath (0.9.4)
+      async-rack
+      em-synchrony (>= 1.0.0)
+      eventmachine (>= 1.0.0.beta.3)
+      http_parser.rb
+      http_router (~> 0.9.0)
+      log4r
+      multi_json
+      rack (>= 1.2.2)
+      rack-contrib
+      rack-respond_to
+    http_parser.rb (0.5.3)
+    http_router (0.9.7)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    i18n (0.6.0)
+    log4r (1.1.10)
+    moped (1.1.1)
+    multi_json (1.3.6)
+    origin (1.0.3)
+    rack (1.4.1)
+    rack-accept-media-types (0.9)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-respond_to (0.9.8)
+      rack-accept-media-types (>= 0.6)
+    tzinfo (0.3.33)
+    url_mount (0.2.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  goliath
+  mongoid!
