@@ -1,4 +1,5 @@
 source :rubygems
 
 gem "goliath"
-gem "mongoid", github: "mongoid/mongoid"
+gem "moped"
+gem "yajl-ruby"
